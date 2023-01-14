@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Fitness</title>
+
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" <link rel="stylesheet" href="index.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: antiquewhite;
+        margin: 0px;
+        padding: 0px;
+        background-image: url('img/boxer-1984344.jpg');
+        background-attachment: scroll;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+
+    .left {
+        display: inline-block;
+        position: absolute;
+        left: 33px;
+        top: 12px;
+        font-size: 19px;
+        padding-left: 91px;
+        /* border: 2px solid rgb(155, 15, 15) */
+    }
+
+    .left img {
+
+        height: 52px;
+        width: 55px;
+        border-radius: 30px;
+        /* filter: invert(); */
+       
+
+    }
+
+    .mid {
+        display: block;
+        width: 734px;
+        margin: 7px auto;
+        /* border: 2px solid rgb(15, 155, 122) */
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 12px;
+        /* border: 2px solid rgb(179, 31, 159) */
+    }
+
+    .navbar {
+        display: inline-block
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 25px;
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: none;
+        color: white;
+        padding: 8px 16px;
+        background: transparent;
+        border-radius: 20px;
+        outline: none;
+        cursor: pointer;
+        border-color: #fbfcfb;
+
+    }
+
+    .btn:hover {
+        background-color: rgb(88, 208, 248);
+    }
+
+    .container {
+        border: 2px solid rgb(245, 238, 238);
+        margin: 107px;
+        padding: 22px;
+        width: 513px;
+        height: 580px;
+        border-radius: 50px;
+        
+    }
+   
+    .form-group input{
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 451px;
+        padding:  8px;
+        margin: 17px auto;
+        border: rgb(200, 18, 18);
+        border-radius: 5px;
+        font-size: 24px;
+    }
+    .sagar{
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        /* display: block; */
+        /* width: 500px; */
+        /* padding: 3px; */
+        /* margin: 3px auto; */
+        /* border: rgb(177, 30, 30); */
+        /* border-radius: 5px; */
+        font-size: 24px;
+        word-spacing: 30px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        font-family: 'Baloo Bhai', cursive;
+        font-size: 24px;
+        display: block;
+        width: 471px;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+
+    <header class="header">
+        <!-- Left Box For Logo -->
+        <div class="left">
+
+            <img src="img/istockphoto-183371284-1024x1024.jpg" alt="" <br>
+            <br>
+            <div>
+                Fitness
+            </div>
+        </div>
+        <!-- Mid box for nav  -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="about.html" target="_parent">AboutUs</a> </li>
+                <li><a href="Fitness calculator.html" target="_parent">Fitness Calculator</a></li>
+                <li><a href="Contact us.html" target="_parent">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- Right box for buttons -->
+        <div class="right">
+
+            <button class="btn">Email Us</button>
+            <button class="btn">Call Us Now</button>
+
+        </div>
+
+
+
+
+    </header>
+
+    <div class="container">
+        <h1> Join Best GYM Of Baliapur Now </h1>
+        <form action="no action.php">
+            <div class="form-group">
+                <input type="text" name="" Placeholder="Please Enter Your Name">
+            </div>
+
+            <div class="form-group">
+                <input type="text" name="" Placeholder="Please Enter Your Age">
+            </div>
+            
+            
+            
+            <div class="form-group">
+                <input type="text" name="" Placeholder="Please Enter Your Locality">
+            </div>
+            
+            
+            <div class="form-group">
+                <input type="email" name="" Placeholder="Please Enter Your Email Id">
+            </div>
+            
+            
+            <div class="form-group">
+                <input type="number" name="" Placeholder="Please Enter Your Phone Number">
+            </div>
+            
+            <div class="sagar">
+                Gender: Male<input type="radio" name="mygender" checked>
+                        Female<input type="radio" name="mygender">
+             </div>
+            
+            <button class="btn">Submit</button>
+            <!-- <div>
+            <label for="Gender">Gender</label>
+            <select name="mygender" id="Gender">
+            <option value="m">Male</option>
+            <option value="f">Female</option>
+            <option value="f">Other</option>
+            </div> -->
+            
+            
+            <!-- <div class="form.group">
+            <input type="text" name="" Placeholder="Please Enter Your Gender">
+            </div> -->
+            
+            
+            <!-- <div>
+            Male:<input type="checkbox" name="Male">
+            Female:<input type="checkbox" name="Female">
+            </div> -->
+        </form>
+        
+    </div>
+</body>
+
+</html>
